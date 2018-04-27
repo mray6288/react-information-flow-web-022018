@@ -21,3 +21,4 @@ export function getRandomColorTree(tierCount, tiers=[getRandomColor()]) {
   tiers.push(getReducedColor(tiers[tiers.length - 1]))
   return getRandomColorTree(--tierCount, tiers)
 }
+ 
